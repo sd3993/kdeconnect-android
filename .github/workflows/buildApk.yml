@@ -19,7 +19,7 @@ jobs:
       - name: Build APK
         run: bash ./gradlew assembleDebug
       - name: Upload APK
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v3
         with:
           name: apk
           path: ./build/outputs/apk/debug/*.apk 
