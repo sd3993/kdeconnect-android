@@ -1,4 +1,4 @@
-name: Minimal Android CI Workflow
+name: Run Test & Build apk
 
 on:
   push:
