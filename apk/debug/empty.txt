@@ -1,0 +1,1 @@
+This folder will contain debug apks built by Github Actions
